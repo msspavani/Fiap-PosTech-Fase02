@@ -1,0 +1,36 @@
+name: Build and Test 
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout do código
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Configuração da versão do .NET
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x' # Ajuste para a versão do .NET que está usando
+
+      # Restaurar dependências
+      - name: Restore dependencies
+        run: dotnet restore
+
+      # Build da aplicação
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      # Executar testes de unidade
+      - name: Run tests
+        run: dotnet test --no-build --verbosity normal
