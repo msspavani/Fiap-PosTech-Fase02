@@ -1,0 +1,6 @@
+@FIAP.TC.FASE01.APIContatos.WebAPI_HostAddress = http://localhost:5128
+
+GET {{FIAP.TC.FASE01.APIContatos.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

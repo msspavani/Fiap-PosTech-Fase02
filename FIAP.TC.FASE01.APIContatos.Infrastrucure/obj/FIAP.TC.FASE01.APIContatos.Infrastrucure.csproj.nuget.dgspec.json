@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Infrastrucure/FIAP.TC.FASE01.APIContatos.Infrastrucure.csproj": {}
+  },
+  "projects": {
+    "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Domain/FIAP.TC.FASE01.APIContatos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Domain/FIAP.TC.FASE01.APIContatos.Domain.csproj",
+        "projectName": "FIAP.TC.FASE01.APIContatos.Domain",
+        "projectPath": "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Domain/FIAP.TC.FASE01.APIContatos.Domain.csproj",
+        "packagesPath": "/home/martines/.nuget/packages/",
+        "outputPath": "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/martines/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Infrastrucure/FIAP.TC.FASE01.APIContatos.Infrastrucure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Infrastrucure/FIAP.TC.FASE01.APIContatos.Infrastrucure.csproj",
+        "projectName": "FIAP.TC.FASE01.APIContatos.Infrastrucure",
+        "projectPath": "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Infrastrucure/FIAP.TC.FASE01.APIContatos.Infrastrucure.csproj",
+        "packagesPath": "/home/martines/.nuget/packages/",
+        "outputPath": "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Infrastrucure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/martines/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Domain/FIAP.TC.FASE01.APIContatos.Domain.csproj": {
+                "projectPath": "/home/martines/Documentos/FIAP/Repositorios/Challenge-Fase02/Fiap-PosTech-Fase02/FIAP.TC.FASE01.APIContatos.Domain/FIAP.TC.FASE01.APIContatos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.0-preview2.24304.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

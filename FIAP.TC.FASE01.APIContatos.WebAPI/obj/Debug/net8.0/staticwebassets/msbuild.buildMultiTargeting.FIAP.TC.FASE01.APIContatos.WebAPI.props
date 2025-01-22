@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/FIAP.TC.FASE01.APIContatos.WebAPI.props" />
+</Project>
